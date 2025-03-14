@@ -1,0 +1,34 @@
+# 依赖目录
+node_modules/
+.pnpm-store/
+
+# 构建输出
+.vitepress/dist/
+.vitepress/cache/
+.temp/
+
+# 本地环境变量
+.env
+.env.*.local
+*.env
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 编辑器/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试相关
+coverage/
+.nyc_output/
+
+# 调试文件
+debug.*
