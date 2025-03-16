@@ -58,20 +58,6 @@ export default defineConfig(
 
         '/front-end/html/': [
           {
-            text: '本站信息',
-            items: [
-              { text: '关于本站', link: '/about' },
-              { text: '维护团队', link: '/team' }
-            ]
-          },
-          {
-            text: '小白扫盲课',
-            items: [
-              { text: '什么是文件', link: '/what-is-file' },
-              { text: '什么是编程', link: '/what-is-it' }
-            ]
-          },
-          {
             text: 'HTML教程',
             items: [
               { text: 'HTML 简介', link: '/front-end/html/' },
@@ -83,10 +69,7 @@ export default defineConfig(
               { text: 'HTML 参考手册', link: '/front-end/html/html-6' },
               { text: 'HTML DOM教程', link: '/front-end/html/html-7' },
             ]
-          }
-        ],
-
-        '/front-end/css/': [
+          },
           {
             text: '本站信息',
             items: [
@@ -100,7 +83,10 @@ export default defineConfig(
               { text: '什么是文件', link: '/what-is-file' },
               { text: '什么是编程', link: '/what-is-it' }
             ]
-          },
+          }
+        ],
+
+        '/front-end/css/': [
           {
             text: 'CSS教程',
             items: [
@@ -117,6 +103,25 @@ export default defineConfig(
               { text: 'CSS 盒子模型', link: '/front-end/css/css-10' },
               { text: 'CSS Border (边框)', link: '/front-end/css/css-11' },
               { text: 'CSS 轮廓（outline）属性', link: '/front-end/css/css-12' },
+              { text: 'CSS margin (外边距)', link: '/front-end/css/css-13' },
+              { text: 'CSS 分组和嵌套', link: '/front-end/css/css-14' },
+              { text: 'CSS 尺寸 (Dimension)', link: '/front-end/css/css-15' },
+              { text: 'CSS Display (显示)', link: '/front-end/css/css-16' },
+              { text: 'CSS Position (定位)', link: '/front-end/css/css-17' },
+            ]
+          },
+          {
+            text: '本站信息',
+            items: [
+              { text: '关于本站', link: '/about' },
+              { text: '维护团队', link: '/team' }
+            ]
+          },
+          {
+            text: '小白扫盲课',
+            items: [
+              { text: '什么是文件', link: '/what-is-file' },
+              { text: '什么是编程', link: '/what-is-it' }
             ]
           }
         ],
@@ -129,6 +134,20 @@ export default defineConfig(
               { text: 'JavaScript 基础', link: '/front-end/javascript/js-1' },
               { text: 'JavaScript 变量', link: '/front-end/javascript/js-2' },
               { text: 'JavaScript 函数', link: '/front-end/javascript/js-3' },
+            ]
+          },
+          {
+            text: '本站信息',
+            items: [
+              { text: '关于本站', link: '/about' },
+              { text: '维护团队', link: '/team' }
+            ]
+          },
+          {
+            text: '小白扫盲课',
+            items: [
+              { text: '什么是文件', link: '/what-is-file' },
+              { text: '什么是编程', link: '/what-is-it' }
             ]
           }
         ]
