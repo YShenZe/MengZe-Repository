@@ -7,7 +7,7 @@ export default defineConfig(
     title: "MengZe-Repository",
     lang: "zh-Hans",
     description: "A Specialized Full Stack Repository",
-    
+    lastUpdated: true,
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
@@ -142,6 +142,17 @@ export default defineConfig(
         message: 'Released under the MIT License.', 
         copyright: 'Copyright © 2024-present MengZe' 
       },
+      
+      lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+    
+    editLink: { pattern: 'https://github.com/YShenZe/MengZe-Repository/edit/main/docs/:path' }
+    
     },
 
     mermaid: {
