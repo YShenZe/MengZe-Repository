@@ -2,16 +2,6 @@
 
 ## 一、DOM 核心概念
 ### 1. DOM 抽象模型
-```mermaid
-graph TD
-A[Document] --> B[Element: html]
-B --> C[Element: head]
-B --> D[Element: body]
-C --> E[Element: title]
-D --> F[Element: div]
-D --> G[Element: script]
-F --> H[Text: "Hello World"]
-```
 
 ### 2. 节点类型（Node Types）
 | 常量                      | 值  | 说明                  |
@@ -86,18 +76,18 @@ element.style.removeProperty('font-size');
 ### 1. 事件传播机制
 ```mermaid
 sequenceDiagram
-participant Window
-participant Document
-participant Div
-participant Button
+    participant Window
+    participant Document
+    participant Div
+    participant Button
 
-Window->>Document: 捕获阶段
-Document->>Div: 捕获阶段
-Div->>Button: 捕获阶段
-Note over Button: 目标阶段
-Button->>Div: 冒泡阶段
-Div->>Document: 冒泡阶段
-Document->>Window: 冒泡阶段
+    Window->>Document: 捕获阶段
+    Document->>Div: 捕获阶段
+    Div->>Button: 捕获阶段
+    Note over Button: 目标阶段
+    Button->>Div: 冒泡阶段
+    Div->>Document: 冒泡阶段
+    Document->>Window: 冒泡阶段
 ```
 
 ### 2. 自定义事件系统
