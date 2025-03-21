@@ -45,6 +45,14 @@ Root
               /css-15.html
               /css-16.html
               /css-17.html
+              /css-18.html
+              /css-19.html
+              /css-20.html
+              /css-21.html
+              /css-22.html
+              /css-23.html
+              /css-24.html
+              /css-25.html
             /javascript/
               /index.html
 ```
