@@ -108,6 +108,14 @@ export default defineConfig(
               { text: 'CSS 尺寸 (Dimension)', link: '/front-end/css/css-15' },
               { text: 'CSS Display (显示)', link: '/front-end/css/css-16' },
               { text: 'CSS Position (定位)', link: '/front-end/css/css-17' },
+              { text: 'CSS Overflow', link: '/front-end/css/css-18' },
+              { text: 'CSS Float（浮动）', link: '/front-end/css/css-19' },
+              { text: 'CSS 组合选择符', link: '/front-end/css/css-20' },
+              { text: 'CSS 伪类', link: '/front-end/css/css-21' },
+              { text: 'CSS 伪元素', link: '/front-end/css/css-22' },
+              { text: 'CSS 图像透明/不透明', link: '/front-end/css/css-23' },
+              { text: 'CSS 图像拼合技术', link: '/front-end/css/css-24' },
+              { text: 'CSS进阶学习', link: '/front-end/css/css-25' },
             ]
           },
           {
