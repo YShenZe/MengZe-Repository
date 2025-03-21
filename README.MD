@@ -17,14 +17,45 @@ Root
     /team.html
     /front-end/
           /index.html
-          /html-1.html
-          /html-2.html
-          /html-3.html
-          /html-4.html
-          /html-5.html
-          /html-6.html
+            /html/
+              /index.html
+              /html-1.html
+              /html-2.html
+              /html-3.html
+              /html-4.html
+              /html-5.html
+              /html-6.html
+              /html-7.html
+            /css/
+              /index.html
+              /css-1.html
+              /css-2.html
+              /css-3.html
+              /css-4.html
+              /css-5.html
+              /css-6.html
+              /css-7.html
+              /css-8.html
+              /css-9.html
+              /css-10.html
+              /css-11.html
+              /css-12.html
+              /css-13.html
+              /css-14.html
+              /css-15.html
+              /css-16.html
+              /css-17.html
+              /css-18.html
+              /css-19.html
+              /css-20.html
+              /css-21.html
+              /css-22.html
+              /css-23.html
+              /css-24.html
+              /css-25.html
+            /javascript/
+              /index.html
 ```
-
 # 关于本站
 
 同为全栈，我感觉网上的资料零零碎碎，找起来非常麻烦，尤其是我这种 PHP + Nodejs + Vue 全栈，写起来更是如此，于是我就打算搭建这个网站。
